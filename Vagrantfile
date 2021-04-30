@@ -8,7 +8,7 @@
    config.vm.network "public_network", ip: "192.168.1.40"
    
   # Folder Syncing
-   config.vm.synced_folder "./docker", "/home/ubuntu-focal/docker/", create: true
+   config.vm.synced_folder "./<UNIQUEAPPCONFIGNAME>", "/home/vagrant/<UNIQUEAPPCONFIGNAME>/", create: true
   
   # Provider-specific configuration 
    config.vm.provider "virtualbox" do |vb|
@@ -20,7 +20,7 @@
    vb.cpus = 1
    end
   
-   config.vm.provision "shell", path: "install.sh"
+   config.vm.provision "shell", path: "ice-cream.sh"
      
 end
 
