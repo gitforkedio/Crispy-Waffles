@@ -26,21 +26,21 @@ end
 
 
 
-    Vagrantfile
+#    Vagrantfile
     
 
-Vagrant.configure("2") do |config|
-  config.vm.box = "clickonrefresh/clickonrefresh-ubuntu20.04"
-  config.vm.box_version = "0.0.1"
-end
+#Vagrant.configure("2") do |config|
+#  config.vm.box = "clickonrefresh/clickonrefresh-ubuntu20.04"
+#  config.vm.box_version = "0.0.1"
+#end
 
 
 
-    New
+#    New
 
-vagrant init clickonrefresh/clickonrefresh-ubuntu20.04 \
-  --box-version 0.0.1
-vagrant up
+#vagrant init clickonrefresh/clickonrefresh-ubuntu20.04 \
+#  --box-version 0.0.1
+#vagrant up
 
 
 
