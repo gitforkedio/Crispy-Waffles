@@ -7,15 +7,18 @@ git clone -b main-apps https://github.com/Crispy-Waffles/Waffle-Stack.git \
 # Main Apps
 # Odoo
 cd odoo1 \
-  && docker-compose up -d
+  && docker-compose up -d \
+  && cd ..
 
 # Bookstack
 cd bookstack \
-  && docker-compose up -d
+  && docker-compose up -d \
+  && cd ..
 
 # Organizr
 cd organizr \
-  && docker-compose up -d
+  && docker-compose up -d \
+  && cd ..
 
 # Global
 # Noip Dynamic Update client
