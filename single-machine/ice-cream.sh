@@ -8,22 +8,22 @@ The following assumes docker, docker-compose are installed and the docker user h
 # Nginx Proxy Manager
  
 ```
- cd clickonnginx \
+ cd nginxproxymanager \
    && docker-compose up -d
 ```
 
 # Portainer
 
 ```
-chmod +x /clickonportainer/portainer.sh \
-  && ./clickonportainer/portainer.sh
+chmod +x /portainer/portainer.sh \
+  && ./portainer/portainer.sh
 ```
 
 # Cockpit
 
 ```
-chmod +x clickoncockpit/cockpit.sh \
-  && ./clickoncockpit/cockpit.sh
+chmod +x cockpit/cockpit.sh \
+  && ./cockpit/cockpit.sh
 ```
 
 ------------------------------------------------
@@ -33,21 +33,21 @@ chmod +x clickoncockpit/cockpit.sh \
 # Odoo
 
 ```
-cd clickonrefresh \
+cd odoo1 \
   && docker-compose up -d
 ```
 
 # Bookstack
 
 ```
-cd clickondocs \
+cd bookstack \
   && docker-compose up -d
 ```
 
 # Organizr
 
 ```
-cd clickondashboard \
+cd organizr \
   && docker-compose up -d
 ```
 
@@ -57,18 +57,18 @@ cd clickondashboard \
 # Odoo
 
 ```
-cd clickonbonsai \
+cd odoo2 \
   && docker-compose up -d
 ```
 ```
-cd clickonodoo \
+cd odoo3 \
   && docker-compose up -d
 ```
 
 # Hassio
 
 ```
-cd clickonhassio \
+cd hassio \
   && docker-compose up -d
 ```
 
@@ -78,6 +78,6 @@ cd clickonhassio \
 # Noip Dynamic Update client
 
 ```
-chmod +x clickonnoip/noip.sh \
-  && ./clickonnoip/noip.sh
+chmod +x noip/noip.sh \
+  && ./noip/noip.sh
 ```
