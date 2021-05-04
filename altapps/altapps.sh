@@ -3,11 +3,11 @@
 # Odoo
 
 ```
-cd clickonodoo1 \
+cd clickonodoo2 \
   && docker-compose up -d
 ```
 ```
-cd clickonodoo2 \
+cd clickonodoo3 \
   && docker-compose up -d
 ```
 
