@@ -1,0 +1,31 @@
+version: '3'
+services:
+  web:
+    container_name: odoo2
+    image: countdocula/clickonodoo:latest
+    depends_on:
+      - db2
+    ports:
+      - 8269:8069
+    volumes:
+      - odoo-web-data:/var/lib/odoo
+      - ./config:/etc/odoo
+      - ./addons:/mnt/extra-addons
+    environment:
+      - HOST=db2
+      - USER=customuser2
+      - PASSWORD=custompassword2
+      - APP_URL=custom.url2
+    restart: always
+  db2:
+    image: postgres:13
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=custompassword2
+      - POSTGRES_USER=customuser2
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - odoo-db-data:/var/lib/postgresql/data/pgdata
+volumes:
+  odoo-web-data:
+  odoo-db-data:
