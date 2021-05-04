@@ -4,21 +4,21 @@
 # Odoo
 
 ```
-cd clickonodoo1 \
+cd odoo1 \
   && docker-compose up -d
 ```
 
 # Bookstack
 
 ```
-cd clickondocs \
+cd bookstack \
   && docker-compose up -d
 ```
 
 # Organizr
 
 ```
-cd clickondashboard \
+cd organizr \
   && docker-compose up -d
 ```
 
@@ -29,6 +29,6 @@ cd clickondashboard \
 # Noip Dynamic Update client
 
 ```
-chmod +x clickonnoip/noip.sh \
-  && ./clickonnoip/noip.sh
+chmod +x noip/noip.sh \
+  && ./noip/noip.sh
 ```
