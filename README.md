@@ -20,9 +20,9 @@ Odoo | Hassio | Noip
 # 2. [Single Machine - Single Vagrantfile](https://github.com/Crispy-Waffles/Waffle-Stack/tree/crispy-waffles/single-machine)
     A single machine packed to the brim with everything
 
-# 3. Multiple Machine - Multiple Vagrantfile: 
+# 3. [Multiple Machine - Multiple Vagrantfile](https://github.com/Crispy-Waffles/Waffle-Stack)
      3 machines each with their own Vagrantfile and applications
-     [admin](https://github.com/Crispy-Waffles/Waffle-Stack/tree/crispy-waffles/adminapps)
-     [main](https://github.com/Crispy-Waffles/Waffle-Stack/tree/crispy-waffles/mainapps)
-     [alt](https://github.com/Crispy-Waffles/Waffle-Stack/tree/crispy-waffles/altapps)
+   [admin](https://github.com/Crispy-Waffles/Waffle-Stack/tree/crispy-waffles/adminapps)
+   [main](https://github.com/Crispy-Waffles/Waffle-Stack/tree/crispy-waffles/mainapps)
+   [alt](https://github.com/Crispy-Waffles/Waffle-Stack/tree/crispy-waffles/altapps)
  
