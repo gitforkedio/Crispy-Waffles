@@ -4,7 +4,7 @@
   config.vm.box = "clickonrefresh/clickonrefresh-ubuntu20.04"
   
   # Network settings
-  config.vm.network "private_network",
+  config.vm.network "public_network", ip: "192.168.1.40",
    
   # Provider-specific configuration 
   config.vm.provider "virtualbox" do |vb|
