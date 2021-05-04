@@ -3,18 +3,18 @@
 # Odoo
 
 ```
-cd clickonodoo2 \
+cd odoo2 \
   && docker-compose up -d
 ```
 ```
-cd clickonodoo3 \
+cd odoo3 \
   && docker-compose up -d
 ```
 
 # Hassio
 
 ```
-cd clickonhassio \
+cd nhassio \
   && docker-compose up -d
 ```
 
@@ -24,6 +24,6 @@ cd clickonhassio \
 # Noip Dynamic Update client
 
 ```
-chmod +x clickonnoip/noip.sh \
-  && ./clickonnoip/noip.sh
+chmod +x noip/noip.sh \
+  && ./noip/noip.sh
 ```
