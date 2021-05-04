@@ -4,7 +4,7 @@ services:
     container_name: odoo1
     image: countdocula/clickonodoo:latest
     depends_on:
-      - db
+      - db1
     ports:
       - 8169:8069
     volumes:
@@ -12,17 +12,17 @@ services:
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
     environment:
-      - HOST=db
-      - USER=user
-      - PASSWORD=custompwd
-      - APP_URL=cutom.url
+      - HOST=db1
+      - USER=user1
+      - PASSWORD=custompwd1
+      - APP_URL=cutom.url1
     restart: always
-  db:
+  db1:
     image: postgres:13
     environment:
       - POSTGRES_DB=postgres
-      - POSTGRES_PASSWORD=custompwd
-      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=custompwd1
+      - POSTGRES_USER=user1
       - PGDATA=/var/lib/postgresql/data/pgdata
     volumes:
       - odoo-db-data:/var/lib/postgresql/data/pgdata
