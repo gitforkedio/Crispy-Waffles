@@ -14,7 +14,7 @@ cd odoo3 \
 # Hassio
 
 ```
-cd nhassio \
+cd hassio \
   && docker-compose up -d
 ```
 
