@@ -4,7 +4,7 @@
 # Odoo
 
 ```
-cd clickonrefresh \
+cd clickonodoo1 \
   && docker-compose up -d
 ```
 
