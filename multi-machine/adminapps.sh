@@ -7,15 +7,18 @@ git clone -b admin-apps https://github.com/Crispy-Waffles/Waffle-Stack.git \
 # Admin Apps
 # Nginx Proxy Manager 
 cd nginxproxymanager \
-  && docker-compose up -d
+  && docker-compose up -d \
+  && cd ..
 
 # Portainer
 chmod +x /portainer/portainer.sh \
-  && ./portainer/portainer.sh
+  && ./portainer/portainer.sh \
+  cd ..
 
 # Cockpit
 chmod +x cockpit/cockpit.sh \
-  && ./cockpit/cockpit.sh
+  && ./cockpit/cockpit.sh \
+  && cd ..
 
 # Global
 # Noip Dynamic Update client
