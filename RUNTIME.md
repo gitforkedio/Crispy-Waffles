@@ -1,4 +1,4 @@
-# How to run each app
+# How to run each app individually
 
 The following assumes docker, docker-compose are installed and the docker user has been added to the sudo group.
 ----------------------------------------------
