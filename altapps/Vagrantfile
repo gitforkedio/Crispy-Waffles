@@ -13,6 +13,6 @@
   vb.cpus = 1
   end
   
-  config.vm.provision "shell", path: "adminapps.sh"
+  config.vm.provision "shell", path: "altapps.sh"
      
 end
