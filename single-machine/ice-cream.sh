@@ -1,13 +1,12 @@
-# Clone the full waffle stack branch:
+!#bin/bash
 
+# Clone the full waffle stack branch:
 git clone -b waffle-stack https://github.com/Crispy-Waffles/Waffle-Stack.git \
   && cd Waffle-Stack
 
-The following assumes docker, docker-compose are installed and the docker user has been added to the sudo group.
-----------------------------------------------
-# Admin Apps
----
+# The following assumes docker, docker-compose are installed and the docker user has been added to the sudo group.
 
+# Admin Apps
 # Nginx Proxy Manager
  
 ```
@@ -30,10 +29,7 @@ chmod +x cockpit/cockpit.sh \
   && sudo bash ./cockpit/cockpit.sh
 ```
 
-------------------------------------------------
 # Main Apps
----
-
 # Odoo
 
 ```
@@ -58,9 +54,8 @@ cd organizr \
   cd ..
 ```
 
-------------------------------------------------
-# Alt Apps
 
+# Alt Apps
 # Odoo
 
 ```
@@ -68,6 +63,7 @@ cd odoo2 \
   && docker-compose up -d \
   && cd ..
 ```
+
 ```
 cd odoo3 \
   && docker-compose up -d \
@@ -82,7 +78,7 @@ cd hassio \
   && cd ..
 ```
 
-------------------------------------------------
+
 # Global
 
 # Noip Dynamic Update client
