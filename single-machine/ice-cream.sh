@@ -1,4 +1,7 @@
-# How to run each app
+# Clone the full waffle stack branch:
+
+git clone -b waffle-stack https://github.com/Crispy-Waffles/Waffle-Stack.git \
+  && cd Waffle-Stack
 
 The following assumes docker, docker-compose are installed and the docker user has been added to the sudo group.
 ----------------------------------------------
@@ -9,21 +12,22 @@ The following assumes docker, docker-compose are installed and the docker user h
  
 ```
  cd nginxproxymanager \
-   && docker-compose up -d
+   && docker-compose up -d \
+   && cd ..
 ```
 
 # Portainer
 
 ```
 chmod +x /portainer/portainer.sh \
-  && ./portainer/portainer.sh
+  && sudo bash ./portainer/portainer.sh
 ```
 
 # Cockpit
 
 ```
 chmod +x cockpit/cockpit.sh \
-  && ./cockpit/cockpit.sh
+  && sudo bash ./cockpit/cockpit.sh
 ```
 
 ------------------------------------------------
@@ -34,21 +38,24 @@ chmod +x cockpit/cockpit.sh \
 
 ```
 cd odoo1 \
-  && docker-compose up -d
+  && docker-compose up -d \
+  && cd ..
 ```
 
 # Bookstack
 
 ```
 cd bookstack \
-  && docker-compose up -d
+  && docker-compose up -d \
+  && cd ..
 ```
 
 # Organizr
 
 ```
 cd organizr \
-  && docker-compose up -d
+  && docker-compose up -d \
+  cd ..
 ```
 
 ------------------------------------------------
@@ -58,18 +65,21 @@ cd organizr \
 
 ```
 cd odoo2 \
-  && docker-compose up -d
+  && docker-compose up -d \
+  && cd ..
 ```
 ```
 cd odoo3 \
-  && docker-compose up -d
+  && docker-compose up -d \
+  && cd ..
 ```
 
 # Hassio
 
 ```
 cd hassio \
-  && docker-compose up -d
+  && docker-compose up -d \
+  && cd ..
 ```
 
 ------------------------------------------------
@@ -79,5 +89,5 @@ cd hassio \
 
 ```
 chmod +x noip/noip.sh \
-  && ./noip/noip.sh
+  && sudo bash ./noip/noip.sh
 ```
