@@ -6,7 +6,7 @@ Nginx Proxy Manager | Portainer | Cockpit | Noip
 # [mainapps](https://github.com/Crispy-Waffles/Crispy-Waffles/tree/main-apps)
 Odoo | Organzr | Bookstack | Noip
 
-# [altapps](hhttps://github.com/Crispy-Waffles/Crispy-Waffles/tree/alt-apps)
+# [altapps](https://github.com/Crispy-Waffles/Crispy-Waffles/tree/alt-apps)
 Odoo | Hassio | Noip
 
 ## The docker compose and other app installations to be used in conjunction with [clickonrefresh base box](https://app.vagrantup.com/clickonrefresh/boxes/clickonrefresh-ubuntu20.04) for vagrant
