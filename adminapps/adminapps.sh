@@ -8,22 +8,22 @@ The following assumes docker, docker-compose are installed and the docker user h
 # Nginx Proxy Manager
  
 ```
- cd clickonnginx \
+ cd nginxproxymanager \
    && docker-compose up -d
 ```
 
 # Portainer
 
 ```
-chmod +x /clickonportainer/portainer.sh \
-  && ./clickonportainer/portainer.sh
+chmod +x /portainer/portainer.sh \
+  && ./portainer/portainer.sh
 ```
 
 # Cockpit
 
 ```
-chmod +x clickoncockpit/cockpit.sh \
-  && ./clickoncockpit/cockpit.sh
+chmod +x cockpit/cockpit.sh \
+  && ./cockpit/cockpit.sh
 ```
 
 ------------------------------------------------
@@ -32,6 +32,6 @@ chmod +x clickoncockpit/cockpit.sh \
 # Noip Dynamic Update client
 
 ```
-chmod +x clickonnoip/noip.sh \
-  && ./clickonnoip/noip.sh
+chmod +x noip/noip.sh \
+  && ./nnoip/noip.sh
 ```
