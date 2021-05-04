@@ -1,12 +1,12 @@
 # Crispy Waffles - Waffle Stack
 
-# [adminapps](https://github.com/clickonrefresh/clickonultimate/tree/clickonadmin)
+# [adminapps](https://github.com/Crispy-Waffles/Crispy-Waffles/tree/admin-apps)
 Nginx Proxy Manager | Portainer | Cockpit | Noip
 
-# [mainapps](https://github.com/clickonrefresh/clickonultimate/tree/clickonmain)
+# [mainapps](https://github.com/Crispy-Waffles/Crispy-Waffles/tree/main-apps)
 Odoo | Organzr | Bookstack | Noip
 
-# [altapps](https://github.com/clickonrefresh/clickonultimate/tree/clickonalt)
+# [altapps](hhttps://github.com/Crispy-Waffles/Crispy-Waffles/tree/alt-apps)
 Odoo | Hassio | Noip
 
 ## The docker compose and other app installations to be used in conjunction with [clickonrefresh base box](https://app.vagrantup.com/clickonrefresh/boxes/clickonrefresh-ubuntu20.04) for vagrant
