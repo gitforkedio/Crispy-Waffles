@@ -1,4 +1,4 @@
-!#bin/bash
+#!bin/bash
 
 # Clone the alt-apps branch into the VM
 git clone -b alt-apps https://github.com/Crispy-Waffles/Crispy-Waffles.git \
