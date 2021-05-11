@@ -1,8 +1,8 @@
-!#bin/bash
+#!bin/bash
 
 # Clone the admin-apps branch into the VM
-git clone -b admin-apps https://github.com/Crispy-Waffles/Waffle-Stack.git \
-  && cd Waffle-Stack
+git clone -b admin-apps https://github.com/Crispy-Waffles/Crispy-Waffles.git \
+  && cd Crispy-Waffles
 
 # Admin Apps
 # Nginx Proxy Manager 
@@ -11,16 +11,20 @@ cd nginxproxymanager \
   && cd ..
 
 # Portainer
-chmod +x /portainer/portainer.sh \
-  && ./portainer/portainer.sh \
+cd portainer \
+  && chmod +x portainer.sh \
+  && bash portainer.sh \
   cd ..
 
 # Cockpit
-chmod +x cockpit/cockpit.sh \
-  && ./cockpit/cockpit.sh \
+cd cockpit \
+  && chmod +x cockpit.sh \
+  && bash cockpit.sh \
   && cd ..
 
 # Global
 # Noip Dynamic Update client
-chmod +x noip/noip.sh \
-  && ./nnoip/noip.sh
+# cd noip \
+#   && chmod +x noip.sh \
+#   && bash noip.sh
+  
