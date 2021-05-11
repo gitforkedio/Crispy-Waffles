@@ -1,4 +1,4 @@
-!#bin/bash
+#!bin/bash
 
 # Clone the admin-apps branch into the VM
 git clone -b admin-apps https://github.com/Crispy-Waffles/Crispy-Waffles.git \
