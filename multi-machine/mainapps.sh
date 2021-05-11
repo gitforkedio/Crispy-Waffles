@@ -2,7 +2,7 @@
 
 # Clone the main-apps branch into the VM
 git clone -b main-apps https://github.com/Crispy-Waffles/Crispy-Waffles.git \
-  && cd Waffle-Stack
+  && cd Crispy-Waffles
 
 # Main Apps
 # Odoo
