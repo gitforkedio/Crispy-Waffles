@@ -16,7 +16,7 @@ Odoo | Hassio | Noip
    There are various deployment options for the waffle stack.
 
 # 1. [Multi Machine - Single Vagrantfile](https://github.com/Crispy-Waffles/Waffle-Stack/tree/crispy-waffles/multi-machine)
-   A single Vagrantfile that provisions a multi(3) machine setup each with their own applications
+   A single Vagrantfile that provisions a trio machine setup each with their own applications
 
 # 2. [Single Machine - Single Vagrantfile](https://github.com/Crispy-Waffles/Waffle-Stack/tree/crispy-waffles/single-machine)
    A single machine packed to the brim with everything
