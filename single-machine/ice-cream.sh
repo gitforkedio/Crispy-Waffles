@@ -1,25 +1,25 @@
-!#bin/bash
+#!bin/bash
 
-# Clone the full waffle stack branch:
-git clone -b waffle-stack https://github.com/Crispy-Waffles/Waffle-Stack.git \
-  && cd Waffle-Stack
-
-# The following assumes docker, docker-compose are installed and the docker user has been added to the sudo group.
+# Clone the admin-apps branch into the VM
+git clone -b admin-apps https://github.com/Crispy-Waffles/Crispy-Waffles.git \
+  && cd Crispy-Waffles
 
 # Admin Apps
-# Nginx Proxy Manager
+# Nginx Proxy Manager 
 cd nginxproxymanager \
-   && docker-compose up -d \
-   && cd ..
-
-# Portainer
-chmod +x /portainer/portainer.sh \
-  && sudo bash ./portainer/portainer.sh \
+  && docker-compose up -d \
   && cd ..
 
+# Portainer
+cd portainer \
+  && chmod +x portainer.sh \
+  && bash portainer.sh \
+  cd ..
+
 # Cockpit
-chmod +x cockpit/cockpit.sh \
-  && sudo bash ./cockpit/cockpit.sh \
+cd cockpit \
+  && chmod +x cockpit.sh \
+  && bash cockpit.sh \
   && cd ..
 
 # Main Apps
@@ -55,5 +55,6 @@ cd hassio \
 
 # Global
 # Noip Dynamic Update client
-chmod +x noip/noip.sh \
-  && sudo bash ./noip/noip.sh
+# cd noip \
+#   && chmod +x noip.sh \
+#   && bash noip.sh
