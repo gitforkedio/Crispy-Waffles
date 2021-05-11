@@ -24,7 +24,7 @@ cd cockpit \
 
 # Global
 # Noip Dynamic Update client
-#cd noip
-  #&& chmod +x noip.sh \
-  #&& bash noip.sh
+# cd noip \
+#   && chmod +x noip.sh \
+#   && bash noip.sh
   
