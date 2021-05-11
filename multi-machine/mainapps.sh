@@ -1,26 +1,30 @@
 !#bin/bash
 
-# Clone the main-apps branch into the VM
-git clone -b main-apps https://github.com/Crispy-Waffles/Waffle-Stack.git \
-  && cd Waffle-Stack
+# Clone the admin-apps branch into the VM
+git clone -b admin-apps https://github.com/Crispy-Waffles/Crispy-Waffles.git \
+  && cd Crispy-Waffles
 
-# Main Apps
-# Odoo
-cd odoo1 \
+# Admin Apps
+# Nginx Proxy Manager 
+cd nginxproxymanager \
   && docker-compose up -d \
   && cd ..
 
-# Bookstack
-cd bookstack \
-  && docker-compose up -d \
-  && cd ..
+# Portainer
+cd portainer \
+  && chmod +x portainer.sh \
+  && bash portainer.sh \
+  cd ..
 
-# Organizr
-cd organizr \
-  && docker-compose up -d \
+# Cockpit
+cd cockpit \
+  && chmod +x cockpit.sh \
+  && bash cockpit.sh \
   && cd ..
 
 # Global
 # Noip Dynamic Update client
-chmod +x noip/noip.sh \
-  && ./noip/noip.sh
+#cd noip
+  #&& chmod +x noip.sh \
+  #&& bash noip.sh
+  
