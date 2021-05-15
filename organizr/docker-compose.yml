@@ -6,7 +6,7 @@ services:
         image: organizr/organizr:latest
         restart: unless-stopped
         ports:
-            - 8567:80
+            - 8510:80
         volumes:
             - ./config:/config
         environment:
