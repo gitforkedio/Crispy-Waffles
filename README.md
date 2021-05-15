@@ -1,3 +1,6 @@
+# RUN ```vagrant up``` on this branch to provision 3 VirtualBox Machines each with their own set of applications. 
+________________________________________
+
 # Crispy Waffles - Crispy Waffles
 The Ultimate Web Application Suite & Business ToolBox
 
