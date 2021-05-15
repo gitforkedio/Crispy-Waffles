@@ -29,7 +29,7 @@ Odoo | Hassio | Noip
 
 ##   [alt](https://github.com/Crispy-Waffles/Crispy-Waffles/tree/crispy-waffles/altapps)
  
-______________________________________________________________--
+____________________________________________________________
 
 # How to run each app individually
 
@@ -114,3 +114,6 @@ cd clickonhassio \
 chmod +x clickonnoip/noip.sh \
   && ./clickonnoip/noip.sh
 ```
+
+
+<!-- {% seo %} -->
