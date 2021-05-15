@@ -15,6 +15,7 @@ Odoo | Hassio | Noip
    There are various deployment options for the waffle stack.
 
 # 1. [Multi Machine - Single Vagrantfile](https://github.com/Crispy-Waffles/Crispy-Waffles/tree/crispy-waffles/multi-machine)
+# a. [Multi Machine - Single Vagrantfile](https://github.com/Crispy-Waffles/Crispy-Waffles/blob/796033a3ae64980be75e8ecb11758cf5a25317cf/README.md)
    A single Vagrantfile that provisions a multi(3) machine setup each with their own applications
 
 # 2. [Single Machine - Single Vagrantfile](https://github.com/Crispy-Waffles/Crispy-Waffles/tree/crispy-waffles/single-machine)
@@ -117,3 +118,4 @@ chmod +x clickonnoip/noip.sh \
 
 
 <!-- {% seo %} -->
+
