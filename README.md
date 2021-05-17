@@ -121,11 +121,27 @@ chmod +x clickonnoip/noip.sh \
 ------------------------------------------------
 # Post Installation 
 
-~~~
+```
 ssh vagrant@y0urIP123
-   pwd:vagrant
+```
+
+### pwd:vagrant
 
 
+#### Add new user
+
+```
 adduser newuser
-~~~
+```
 
+#### Add user to admin group
+
+```
+usermod -aG sudo newuser
+```
+
+#### Add new user to docker group
+
+```
+sudo usermod -aG docker ${USER}
+```
