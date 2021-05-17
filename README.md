@@ -121,10 +121,11 @@ chmod +x clickonnoip/noip.sh \
 ------------------------------------------------
 # Post Installation 
 
-**
-ssh vagrant@<IP>
+~~~
+ssh vagrant@y0urIP123
    pwd:vagrant
-**
 
-adduser <newuser>
+
+adduser newuser
+~~~
 
