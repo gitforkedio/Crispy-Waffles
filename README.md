@@ -118,4 +118,13 @@ chmod +x clickonnoip/noip.sh \
 
 
 <!-- {% seo %} -->
+------------------------------------------------
+# Post Installation 
+
+**
+ssh vagrant@<IP>
+   pwd:vagrant
+**
+
+adduser <newuser>
 
