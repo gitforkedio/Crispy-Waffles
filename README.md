@@ -128,7 +128,7 @@ ssh vagrant@y0urIP123
 ### pwd:vagrant
 
 
-#### Add new user
+#### Add new user via Cockpit UI or via cli:
 
 ```
 adduser newuser
