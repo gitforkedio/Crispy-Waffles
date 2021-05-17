@@ -1,8 +1,8 @@
-!#bin/bash
+#!bin/bash
 
 cd /opt
 
-sudo wget https://github.com/clickonrefreshAutomate-Noip-DUC/archive/main.zip
+sudo wget https://github.com/clickonrefresh/Automate-Noip-DUC/archive/main.zip
 
 sudo unzip main.zip
 
