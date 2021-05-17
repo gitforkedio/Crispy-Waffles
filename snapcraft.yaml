@@ -1,0 +1,16 @@
+name: Crispy Waffles
+base: core20
+version: "0.1"
+summary: Web Application Suite
+description: A highly customizable suite of web applications, to do pretty much anything with.
+grade: beta
+confinement: strict
+
+apps:
+  Crispy Waffles:
+    command: vagrant up
+    
+parts:
+  Crispy Waffles:
+    source: https://github.com/Crispy-Waffles/Crispy-Waffles/archive/refs/tags/0.0.1.tar.gz
+    plugin: autotools
