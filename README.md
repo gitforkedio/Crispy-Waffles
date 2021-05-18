@@ -145,3 +145,19 @@ usermod -aG sudo newuser
 ```
 sudo usermod -aG docker ${USER}
 ```
+
+### Either delete vagrant user or completely disable ability to login with vagrant.
+
+```
+sudo deluser vagrant
+```
+or edit sshd_config and add line under port:
+
+```
+nano /etc/ssh/sshd_config
+```
+```
+# Permitrootlogin
+PermitRootLogin no
+Allowusers username
+```
