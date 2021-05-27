@@ -1,3 +1,5 @@
+![crispy waffles (1)](https://user-images.githubusercontent.com/72121107/119762526-29372980-beae-11eb-8c9f-a5aa0481b5fa.jpg)
+
 # RUN ```vagrant up``` on this branch to provision 3 VirtualBox Machines each with their own set of applications. 
 ________________________________________
 
@@ -78,3 +80,4 @@ nano /etc/ssh/sshd_config
 PermitRootLogin no
 Allowusers username
 ```
+<!--{seo} -->
