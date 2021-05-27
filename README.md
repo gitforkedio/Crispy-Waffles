@@ -159,5 +159,5 @@ nano /etc/ssh/sshd_config
 ```
 # Permitrootlogin
 PermitRootLogin no
-Allowusers username
+AllowUsers username
 ```
