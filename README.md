@@ -33,3 +33,48 @@ Odoo | Hassio | Noip
 
 ##   [alt](https://github.com/Crispy-Waffles/Waffle-Stack/tree/crispy-waffles/altapps)
  
+_______________________________________________________________________________________
+# Post Installation 
+
+```
+ssh vagrant@y0urIP123
+```
+
+### pwd:vagrant
+
+
+#### Add new user via Cockpit UI or via cli:
+
+```
+adduser newuser
+```
+
+#### Add user to admin group
+
+```
+usermod -aG sudo newuser
+```
+
+#### Add new user to docker group
+
+```
+sudo usermod -aG docker ${USER}
+```
+# Create new ssh key pair for user or copy existing keys from host.
+[SSH keys on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04)
+
+### Either delete vagrant user or completely disable ability to login with vagrant.
+
+```
+sudo deluser vagrant
+```
+or edit sshd_config and add line under port:
+
+```
+nano /etc/ssh/sshd_config
+```
+```
+# Permitrootlogin
+PermitRootLogin no
+Allowusers username
+```
